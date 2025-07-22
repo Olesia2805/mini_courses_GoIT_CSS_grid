@@ -1,0 +1,29 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+/* The difference between gap and margin is
+that gap creates gaps between elements,
+and margin creates 'invisible borders' around each element */
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px 400px;
+  grid-template-rows: 200px 150px 100px;
+  /* column-gap: 40px;
+  row-gap: 20px; */
+  /* gap: 30px; */
+  /* grid-gap: 20px; */
+  /* grid-gap: 20px 40px; */
+
+  /* Row-gap Column-gap */
+  gap: 10px 15px;
+
+  /* Invalid property value
+  gap: 20px 40px 15px 5px; */
+}
+
+/* .grid-item{
+  margin: 20px 0px;
+  margin-bottom: 20px;
+} */

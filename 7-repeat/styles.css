@@ -1,0 +1,25 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  gap: 20px;
+
+  /* grid-template-columns: 100px 100px 100px 100px 100px; */
+  /* grid-template-columns: repeat(5, 100px); */
+  /* grid-template-columns: repeat(7, 100px); */
+
+  /* 100px, 200px -> I, 100px, 200px -> II, 100px, 200px -> III */
+  /* grid-template-columns: repeat(3, 100px 200px); */
+
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-template-columns: repeat(4, auto); */
+
+  /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+
+  /* grid-template-columns: 100px repeat(4, 1fr); */
+  /* grid-template-columns: 100px repeat(4, 1fr) 200px; */
+  grid-template-columns: 100px repeat(4, 1fr) auto;
+}

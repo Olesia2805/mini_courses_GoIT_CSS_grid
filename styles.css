@@ -1,0 +1,26 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  border: 10px solid black;
+  /* not fill all the container because of the constant width of columns */
+  /* grid-template-columns: 100px 100px 200px 150px; */
+
+  /* more than container because to the calculation also added the gap */
+  /* grid-template-columns: 25% 25% 25% 25%; */
+
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  /* grid-template-columns: repeat(4, 1fr); */
+
+  /* grid-template-columns: 50px 1fr 1fr 1fr; */
+  /* grid-template-columns: 50px repeat(3, 1fr); */
+
+  grid-template-columns: 150px 1fr 2fr 1fr;
+
+  /* auto -> the width of the column is determined by the content */
+  grid-template-columns: 150px auto 2fr 1fr;
+
+  gap: 20px;
+}

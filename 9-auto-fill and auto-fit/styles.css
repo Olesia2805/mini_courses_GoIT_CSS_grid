@@ -10,8 +10,10 @@
   /* auto-fill -> fills the row with as many columns as possible and will not collapse empty
      columns to zero width */
   /* grid-template-columns: repeat(auto-fill, 150px); */
+  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
 
   /* auto-fit -> fills the row with as many columns as possible, but will collapse empty
      columns to zero width */
-  grid-template-columns: repeat(auto-fit, 150px);
+  /* grid-template-columns: repeat(auto-fit, 150px); */
+   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }

@@ -1,0 +1,65 @@
+@import url(./basic-styles.css);
+
+/* lesson styles */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  border: 10px solid;
+  height: 500px;
+}
+
+/* justify-items -> it affects all the items in the container in the inline/main (row) axis */
+/* .container { */
+/* justify-items: start; */
+/* justify-items: end; */
+/* justify-items: center; */
+/* justify-items: stretch; */
+/* } */
+
+/* align-items -> it affects all the items in the container in the block/cross (column) axis */
+/* .container { */
+/* align-items: start; */
+/* align-items: end; */
+/* align-items: center; */
+/* align-items: stretch; */
+/* } */
+
+/* it will wotk if container width is more than total items width */
+/* justify-content -> it affects the whole grid in the inline/main (row) axis */
+/* .container { */
+/* justify-content: start; */
+/* justify-content: end; */
+/* justify-content: center; */
+/* justify-content: space-around; */
+/* justify-content: space-between; */
+/* justify-content: space-evenly; */
+/* } */
+
+/* it will wotk if container height is more than total items height */
+/* align-content -> it affects the whole grid in the block/cross (column) axis */
+/* .container { */
+/* align-content: start; */
+/* align-content: end; */
+/* align-content: center; */
+/* align-content: space-around; */
+/* align-content: space-between; */
+/* align-content: space-evenly; */
+/* } */
+
+/* justify-self -> it affects the specific item in the inline/main (row) axis */
+/* .item-4 { */
+/* justify-self: start; */
+/* justify-self: end; */
+/* justify-self: center; */
+/* justify-self: stretch; */
+/* } */
+
+/* align-self -> it affects the specific item in the block/cross (column) axis */
+/* .item-4 { */
+/* align-self: start; */
+/* align-self: end; */
+/* align-self: center; */
+/* align-self: stretch; */
+/* } */
